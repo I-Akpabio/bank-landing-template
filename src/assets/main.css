@@ -1,0 +1,86 @@
+@import './base.css';
+
+
+body {
+  background-color: #1A1A1A;
+  color: white;
+  font-family: 'Lexend';
+}
+
+.curved {
+  border-radius: 1.25rem;
+}
+
+.sub-container{
+  border-radius: 1.25rem;
+background: var(--Grey-11, #1C1C1C);
+}
+
+main {
+  margin: 4rem 0 4rem 0;
+}
+
+.top-margin {
+  margin-top: 3.75rem;
+}
+
+.green-text{
+ color:  #CAFF33;
+}
+.btn.exchange {
+  margin-top: 1.5rem;
+  border-radius: 3.52938rem;
+  background: #22251B;
+  width: 100%;
+  padding: 0.69rem 1.29rem;
+  color: var(--Green-65, #D1FF4D);
+  font-size: 0.77475rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.btn.primary {
+  border-radius: 5.125rem;
+background: var(--Green-60, #CAFF33);
+color: var(--Grey-11, #1C1C1C);
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.3125rem */
+padding: 0.88rem 1.55rem;
+}
+
+.btn-dark {
+  border-radius: 6.25rem;
+  border: 1px solid var(--Grey-15, #262626);
+  font-size: 0.85rem;
+  font-weight: 400;
+  background: var(--Grey-11, #1C1C1C);
+  padding: 0.875rem 1.25rem;
+}
+
+.btn-primary-small {
+  border-radius: 5.125rem;
+background: var(--Green-60, #CAFF33);
+color: var(--Grey-11, #1C1C1C);
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.3125rem */
+padding: 0.63rem 1.13rem;
+}
+
+.faq-card {
+  border-radius: 0.625rem;
+  border: 1px solid #262626;
+  padding: 2.5rem;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
