@@ -1,10 +1,14 @@
 <script setup>
 
 import GreyBriefLogo from '../components/icons/GreyBriefLogo.vue'
-import BenefiIcon from '../components/icons/BenefiIcon.vue'
+import SecureBankingIcon from '../components/icons/security/SecureBankingIcon.vue'
+import MultiFactor from '../components/icons/security/MultiFactor.vue'
+import FraudMonitoring from '../components/icons/security/FraudMonitoring.vue'
+import SecureMobile from '../components/icons/security/SecureMobile.vue'
 import NavBar from '../components/NavBar.vue'
 </script>
 <template>
+
   <div style="" class="container mx-auto px-8">
     <NavBar />
     <main>
@@ -35,40 +39,29 @@ import NavBar from '../components/NavBar.vue'
 
       <h1 class="semi-big">How we <span class="green-text">Protect you</span></h1>
 
-      <p class="light-text">Stay updated with the latest happenings and exciting developments at YourBank through our
-        press
-        releases.</p>
+      <p class="light-text mb-6">At YourBank, we prioritize the security and confidentiality of your financial information. Our state-of-the-art encryption technology and stringent data protection measures ensure your assets and transactions are safeguarded at all times</p>
 
       <div>
-        <div class="sub-container mt-4 mb-4" style="height: 300px; 
-        border-radius: 3.125rem 3.125rem 1.25rem 1.25rem;
-        background: linear-gradient(106deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0.00) 27.86%), linear-gradient(267deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0.00) 99.81%), url(<path-to-image>), lightgray 0% 0% / 62.46418356895447px 62.46418356895447px repeat;
-        background-blend-mode: normal, normal, screen;">
-
-
-        </div>
+      
         <div>
 
           <div class="grid grid-cols-2 gap-4">
-            <div class="press-card">
+            <div class="security-card">
 
               <div class="flex items-center">
-                <BenefiIcon />
+                <SecureBankingIcon />
 
                 <p>Secure Online Banking Platform</p>
               </div>
 
-              <p class="light-text">We provide a competitive salary package that recognizes the skills and expertise of
-                our
-                employees. YourBank believes in rewarding exceptional performance and offering opportunities for financial
-                growth.</p>
+              <p class="light-text">Our online banking platform is built with multiple layers of security to safeguard your information. We utilize industry-standard encryption protocols to ensure that your data remains confidential and protected during transmission.</p>
 
             </div>
 
-            <div class="press-card">
+            <div class="security-card">
 
               <div class="flex items-center">
-                <BenefiIcon />
+                <MultiFactor />
 
                 <p>Multi-Factor Authentication</p>
               </div>
@@ -80,33 +73,27 @@ import NavBar from '../components/NavBar.vue'
 
             </div>
 
-            <div class="press-card">
+            <div class="security-card">
 
               <div class="flex items-center">
-                <BenefiIcon />
+                <FraudMonitoring />
 
-                <p>Competitive Compensation</p>
+                <p>Fraud Monitoring</p>
               </div>
 
-              <p class="light-text">We provide a competitive salary package that recognizes the skills and expertise of
-                our
-                employees. YourBank believes in rewarding exceptional performance and offering opportunities for financial
-                growth.</p>
+              <p class="light-text">We have sophisticated fraud detection systems in place to monitor your accounts for any suspicious activities. Our dedicated team works around the clock to detect and prevent unauthorized transactions, providing you with peace of mind.</p>
 
             </div>
 
-            <div class="press-card">
+            <div class="security-card">
 
               <div class="flex items-center">
-                <BenefiIcon />
+                <SecureBankingIcon />
 
-                <p>Competitive Compensation</p>
+                <p>Secure Mobile Banking</p>
               </div>
 
-              <p class="light-text">We provide a competitive salary package that recognizes the skills and expertise of
-                our
-                employees. YourBank believes in rewarding exceptional performance and offering opportunities for financial
-                growth.</p>
+              <p class="light-text">Our mobile banking app is designed with the same level of security as our online banking platform. You can confidently access your accounts, make transactions, and manage your finances on the go, knowing that your information is protected.</p>
 
             </div>
           </div>
@@ -137,33 +124,26 @@ import NavBar from '../components/NavBar.vue'
         </div>
 
         <div class="faq-card">
-          <p>How do I open an account with YourBank?</p>
+          <p>What documents do I need to provide to apply for a loan?</p>
 
           <div style="background: #262626; height: 2px; margin-bottom: 10px; margin-top: 10px;"></div>
 
-          <p class="light-text">Opening an account with YourBank is easy. Simply visit our website and click on the "Open
-            an Account" button. Follow the prompts, provide the required information, and complete the application
-            process. If you have any questions or need assistance, our customer support team is available to help.</p>
+          <p class="light-text">The documents required for a loan application may vary depending on the type of loan you are applying for. Generally, you will need to provide identification documents (such as a passport or driver's license), proof of income (such as pay stubs or tax returns), and information about the collateral (if applicable). Our loan officers will guide you through the specific requirements during the application process.</p></div>
+
+        <div class="faq-card">
+          <p>How can I access my accounts online?</p>
+
+          <div style="background: #262626; height: 2px; margin-bottom: 10px; margin-top: 10px;"></div>
+
+          <p class="light-text">Accessing your accounts online is simple and secure. Visit our website and click on the "Login" button. Enter your username and password to access your accounts. If you haven't registered for online banking, click on the "Enroll Now" button and follow the registration process. If you need assistance, our customer support team is available to guide you.</p>
         </div>
 
         <div class="faq-card">
-          <p>How do I open an account with YourBank?</p>
+          <p>Are my transactions and personal information secure?</p>
 
           <div style="background: #262626; height: 2px; margin-bottom: 10px; margin-top: 10px;"></div>
 
-          <p class="light-text">Opening an account with YourBank is easy. Simply visit our website and click on the "Open
-            an Account" button. Follow the prompts, provide the required information, and complete the application
-            process. If you have any questions or need assistance, our customer support team is available to help.</p>
-        </div>
-
-        <div class="faq-card">
-          <p>How do I open an account with YourBank?</p>
-
-          <div style="background: #262626; height: 2px; margin-bottom: 10px; margin-top: 10px;"></div>
-
-          <p class="light-text">Opening an account with YourBank is easy. Simply visit our website and click on the "Open
-            an Account" button. Follow the prompts, provide the required information, and complete the application
-            process. If you have any questions or need assistance, our customer support team is available to help.</p>
+          <p class="light-text">At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place.</p>
         </div>
 
       </div>
@@ -235,13 +215,13 @@ import NavBar from '../components/NavBar.vue'
   height: 80%;
 }
 
-.press-card {
+.security-card {
   background-color: #1c1c1c;
   padding: 1.5rem;
-  border-radius: 1.25rem 0rem 3.75rem 1.25rem;
+  border-radius: 1.25rem 0rem 1.25rem 1.25rem;
 }
 
-.press-card>* {
+.security-card>* {
   margin-bottom: 20px;
 }
 
